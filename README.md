@@ -36,10 +36,6 @@ The project includes:
 
 
 
-\---
-
-
-
 \## Dataset
 
 
@@ -56,7 +52,6 @@ The project includes:
 
 
 
-\---
 
 
 
@@ -80,7 +75,6 @@ The following features were created:
 
 
 
-\---
 
 
 
@@ -118,7 +112,6 @@ The following features were created:
 
 
 
-\---
 
 
 
@@ -126,29 +119,26 @@ The following features were created:
 
 
 
-| Model             | R² Score |
+Model             - R² Score 
 
-| ----------------- | -------- |
+Linear Regression - 0.9129
 
-| Linear Regression | 0.9129   |
+Ridge Regression  - 0.9083 
 
-| Ridge Regression  | 0.9083   |
+Lasso Regression  - 0.8990
 
-| Lasso Regression  | 0.8990   |
+Decision Tree     - 0.8131
 
-| Decision Tree     | 0.8131   |
+Random Forest     - 0.8874
 
-| Random Forest     | 0.8874   |
+Gradient Boosting - 0.8995
 
-| Gradient Boosting | 0.8995   |
+XGBoost           - 0.9045
 
-| XGBoost           | 0.9045   |
-
-| Tuned XGBoost     | 0.9094   |
+Tuned XGBoost     - 0.9094
 
 
 
-\---
 
 
 
@@ -156,15 +146,13 @@ The following features were created:
 
 
 
-| Model             | Mean CV R² |
+Model             - Mean CV R²
 
-| ----------------- | ---------- |
+Linear Regression - 0.8421
 
-| Linear Regression | 0.8421     |
+Ridge Regression  - 0.8634
 
-| Ridge Regression  | 0.8634     |
-
-| Tuned XGBoost     | 0.9057     |
+Tuned XGBoost     - 0.9057
 
 
 
@@ -176,7 +164,6 @@ Final Model Selected:
 
 
 
-\---
 
 
 
@@ -204,7 +191,6 @@ SHAP analysis identified the most influential features:
 
 
 
-\---
 
 
 
@@ -220,39 +206,7 @@ SHAP analysis identified the most influential features:
 
 
 
-\---
 
-
-
-\## Project Structure
-
-
-
-```text
-
-House-price-prediction/
-
-
-
-├── data/
-
-├── images/
-
-├── notebook/
-
-├── reports/
-
-├── requirements.txt
-
-├── README.md
-
-└── .gitignore
-
-```
-
-
-
-\---
 
 
 
@@ -275,26 +229,3 @@ House-price-prediction/
 \* XGBoost
 
 \* SHAP
-
-\* Joblib
-
-
-
-\---
-
-
-
-\## Future Improvements
-
-
-
-\* Streamlit Deployment
-
-\* Model Serialization
-
-\* Interactive Prediction Interface
-
-\* Cloud Deployment
-
-
-
